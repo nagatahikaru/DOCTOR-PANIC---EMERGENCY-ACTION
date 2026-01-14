@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter">
+      <UniqueIdentifier>{605a24f1-5f9f-482f-a24a-6617ba6a364d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Character">
+      <UniqueIdentifier>{824d2b8a-14d7-47a2-b430-cd692178830c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Character\Enemy">
+      <UniqueIdentifier>{f8093879-7bae-4972-ac24-9612588d38d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Character\Player">
+      <UniqueIdentifier>{1162c4a1-b7ee-4503-bc8a-326335cf12fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Character\Enemy\Normal">
+      <UniqueIdentifier>{40b5ae1b-03fe-4cb7-af40-fa07cffaed90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Character\Enemy\Rare">
+      <UniqueIdentifier>{a8076c0e-1136-4271-b924-20d4bec7b160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Stage">
+      <UniqueIdentifier>{8a2cd136-054f-48d0-9957-41732eb19720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Stage\BackGround">
+      <UniqueIdentifier>{f4fff55d-a463-4b6d-a83e-01095b674288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b337bfaf-2f42-4bc3-b92e-7ec9d3d22cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Over">
+      <UniqueIdentifier>{5acaa1ae-1e0b-4d64-85ea-d22d09cb8ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Object">
+      <UniqueIdentifier>{363915a3-bccf-4aa5-bc6c-c63acda4a662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Object\Item">
+      <UniqueIdentifier>{ec9cbf36-39ab-43b3-b6d8-e351c7812e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Object\Item\Drop">
+      <UniqueIdentifier>{cd700ef7-fbf7-48bf-98fc-6669a76b7693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Object\Obstacles">
+      <UniqueIdentifier>{20ad29ee-7975-4052-9acd-bbf1977cac7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acter\Stage\Indoor">
+      <UniqueIdentifier>{2f069d5e-4b27-4ffa-b309-4be9aeb1c8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Clear">
+      <UniqueIdentifier>{cb92cedb-bb5f-4e1c-a7e0-7fc335d165e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Load">
+      <UniqueIdentifier>{d1d94bcd-e4a2-498e-a4a7-9d5f98292a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Select">
+      <UniqueIdentifier>{9253534a-3887-4b4b-afff-02644833ad3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Result">
+      <UniqueIdentifier>{9c39920e-197d-4237-a043-e03327ed7144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Titer">
+      <UniqueIdentifier>{35159d6e-ff10-4f16-af77-0ef93a462ab5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Actor.cpp">
+      <Filter>Acter</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Source\Actor\Character\Player\Player.cpp">
+      <Filter>Acter\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Character\Enemy\Enemy.cpp">
+      <Filter>Acter\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Character\Enemy\Normal\Normal.cpp">
+      <Filter>Acter\Character\Enemy\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Character\Enemy\Rare\Rare.cpp">
+      <Filter>Acter\Character\Enemy\Rare</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Stage\Stage.cpp">
+      <Filter>Acter\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Stage\BackGround\BackGround.cpp">
+      <Filter>Acter\Stage\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Over\Over.cpp">
+      <Filter>Scene\Over</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Object\Object.cpp">
+      <Filter>Acter\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Object\Item\Item.cpp">
+      <Filter>Acter\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Object\Item\Drop\Drop.cpp">
+      <Filter>Acter\Object\Item\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Object\Obstacles\Obstacles.cpp">
+      <Filter>Acter\Object\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Clear\Clear.cpp">
+      <Filter>Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Stage\Indoor\Indoor.cpp">
+      <Filter>Acter\Stage\Indoor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Load\Load.cpp">
+      <Filter>Scene\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Result\Result.cpp">
+      <Filter>Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Select\Select.cpp">
+      <Filter>Scene\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Titer\Titer.cpp">
+      <Filter>Scene\Titer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor\Character\Character.cpp">
+      <Filter>Acter\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Actor.h">
+      <Filter>Acter</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Source\Actor\Character\Player\Player.h">
+      <Filter>Acter\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Character\Enemy\Enemy.h">
+      <Filter>Acter\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Character\Enemy\Normal\Normal.h">
+      <Filter>Acter\Character\Enemy\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Character\Enemy\Rare\Rare.h">
+      <Filter>Acter\Character\Enemy\Rare</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Stage\Stage.h">
+      <Filter>Acter\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Stage\BackGround\BackGround.h">
+      <Filter>Acter\Stage\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Over\Over.h">
+      <Filter>Scene\Over</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Object\Object.h">
+      <Filter>Acter\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Object\Item\Item.h">
+      <Filter>Acter\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Object\Item\Drop\Drop.h">
+      <Filter>Acter\Object\Item\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Object\Obstacles\Obstacles.h">
+      <Filter>Acter\Object\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Clear\Clear.h">
+      <Filter>Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Stage\Indoor\Indoor.h">
+      <Filter>Acter\Stage\Indoor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Load\Load.h">
+      <Filter>Scene\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Result\Result.h">
+      <Filter>Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Select\Select.h">
+      <Filter>Scene\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Titer\Titer.h">
+      <Filter>Scene\Titer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor\Character\Character.h">
+      <Filter>Acter\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
