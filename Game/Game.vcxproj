@@ -224,6 +224,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameSystem\AtkSystem\AtkSystem.cpp" />
+    <ClCompile Include="GameSystem\OptionSystem\OptionSystem.cpp" />
+    <ClCompile Include="GameSystem\SelectSystem\SelectSystem.cpp" />
+    <ClCompile Include="GameSystem\SoundSystem\SoundSystem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Source\Actor\Actor.cpp" />
     <ClCompile Include="Source\Actor\Character\Character.cpp" />
@@ -251,9 +255,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Preview|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="system\system.cpp" />
+    <ClCompile Include="UI\UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameSystem\AtkSystem\AtkSystem.h" />
+    <ClInclude Include="GameSystem\OptionSystem\OptionSystem.h" />
+    <ClInclude Include="GameSystem\SelectSystem\SelectSystem.h" />
+    <ClInclude Include="GameSystem\SoundSystem\SoundSystem.h" />
     <ClInclude Include="Source\Actor\Actor.h" />
     <ClInclude Include="Source\Actor\Character\Character.h" />
     <ClInclude Include="Source\Actor\Character\Enemy\Enemy.h" />
@@ -276,6 +285,7 @@
     <ClInclude Include="Source\Scene\Titer\Titer.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="system\system.h" />
+    <ClInclude Include="UI\UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
