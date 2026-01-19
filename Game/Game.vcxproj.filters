@@ -64,6 +64,42 @@
     <Filter Include="Scene\Titer">
       <UniqueIdentifier>{35159d6e-ff10-4f16-af77-0ef93a462ab5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{d36155a0-1070-4cea-98fc-25126d3e08c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\GameUI">
+      <UniqueIdentifier>{3ad066b6-9222-4f8f-80ac-196d42002f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ResultUI">
+      <UniqueIdentifier>{8be11f86-8980-4421-86f8-ec81c1d1e563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SelectUI">
+      <UniqueIdentifier>{b0eecc8d-45fd-49a7-bd19-76b0a19fb688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TiterUI">
+      <UniqueIdentifier>{06189d72-e1f1-423d-80d0-7f995d68c4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\OptionUI">
+      <UniqueIdentifier>{6693034e-9f28-4865-8890-7f35b3027080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{1b846cf5-a33c-496b-bdb4-41557e7326a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\AtkSystem">
+      <UniqueIdentifier>{9a27ed82-f1a0-47d6-b1d5-91fde7509e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\OptionSystem">
+      <UniqueIdentifier>{36b22b5a-bbbe-4e4a-8be5-4e49b97b7f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\SelectSystem">
+      <UniqueIdentifier>{b8d562bb-73dc-4173-9cf2-f89b5554dc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\SoundSystem">
+      <UniqueIdentifier>{bae5b853-f14c-4153-a6fd-1fd9884cf10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\SynthesisSystem">
+      <UniqueIdentifier>{c46a000f-3650-4227-b9fc-636b8a38b109}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp" />
@@ -132,6 +168,21 @@
       <Filter>Acter\Character</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\AtkSystem\AtkSystem.cpp">
+      <Filter>GameSystem\AtkSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\OptionSystem\OptionSystem.cpp">
+      <Filter>GameSystem\OptionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\SelectSystem\SelectSystem.cpp">
+      <Filter>GameSystem\SelectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\SoundSystem\SoundSystem.cpp">
+      <Filter>GameSystem\SoundSystem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -198,6 +249,21 @@
     </ClInclude>
     <ClInclude Include="Source\Actor\Character\Character.h">
       <Filter>Acter\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\AtkSystem\AtkSystem.h">
+      <Filter>GameSystem\AtkSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\OptionSystem\OptionSystem.h">
+      <Filter>GameSystem\OptionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\SelectSystem\SelectSystem.h">
+      <Filter>GameSystem\SelectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\SoundSystem\SoundSystem.h">
+      <Filter>GameSystem\SoundSystem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
