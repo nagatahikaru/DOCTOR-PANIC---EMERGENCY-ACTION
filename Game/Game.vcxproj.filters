@@ -183,6 +183,7 @@
     <ClCompile Include="GameSystem\SoundSystem\SoundSystem.cpp">
       <Filter>GameSystem\SoundSystem</Filter>
     </ClCompile>
+    <ClCompile Include="SoundManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -265,5 +266,7 @@
     <ClInclude Include="GameSystem\SoundSystem\SoundSystem.h">
       <Filter>GameSystem\SoundSystem</Filter>
     </ClInclude>
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="SoundManager.h" />
   </ItemGroup>
 </Project>

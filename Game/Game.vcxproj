@@ -229,6 +229,7 @@
     <ClCompile Include="GameSystem\SelectSystem\SelectSystem.cpp" />
     <ClCompile Include="GameSystem\SoundSystem\SoundSystem.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="Source\Actor\Actor.cpp" />
     <ClCompile Include="Source\Actor\Character\Character.cpp" />
     <ClCompile Include="Source\Actor\Character\Enemy\Enemy.cpp" />
@@ -259,10 +260,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameData.h" />
     <ClInclude Include="GameSystem\AtkSystem\AtkSystem.h" />
     <ClInclude Include="GameSystem\OptionSystem\OptionSystem.h" />
     <ClInclude Include="GameSystem\SelectSystem\SelectSystem.h" />
     <ClInclude Include="GameSystem\SoundSystem\SoundSystem.h" />
+    <ClInclude Include="SoundManager.h" />
     <ClInclude Include="Source\Actor\Actor.h" />
     <ClInclude Include="Source\Actor\Character\Character.h" />
     <ClInclude Include="Source\Actor\Character\Enemy\Enemy.h" />
